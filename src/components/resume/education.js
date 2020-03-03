@@ -6,11 +6,11 @@ class Education extends Component{
         return(
             <Grid>
                 <Cell col={4}>
-                    <p>{this.props.startYear} - {this.props.endYear}</p>
+                    <p>{this.props.graduateDate}</p>
                 </Cell>
                 <Cell col={8}>
-                    <h4 style={{marginTop: '0px'}}>{this.props.schoolName}</h4>
-                    <p>{this.props.schoolDesc}</p>
+                    <h4 style={{marginTop: '0px'}}>{this.props.institution}</h4>
+                    <p>{this.props.studyType} in {this.props.area}</p>
                 </Cell>
             </Grid>
             )

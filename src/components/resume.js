@@ -23,17 +23,17 @@ class Resume extends Component {
                             />
                         </div>
 
-                        <h2 style={{ paddingTop: '2em' }}>Alexandre Ip</h2>
-                        <h4 style={{ color: 'grey' }}>Software Engineer</h4>
+                        <h2 style={{ paddingTop: '2em' }}>{resume.basics.name}</h2>
+                        <h4 style={{ color: 'grey' }}>{resume.basics.label}</h4>
                         <hr style={{ borderTop: "3px solid #833fb2", width: '50%' }} />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                        <p>{resume.basics.summary}</p>
                         <hr style={{ borderTop: "3px solid #833fb2", width: '50%' }} />
                         <h5>Phone</h5>
-                        <p>(512) 905-1042</p>
+                        <p>{resume.basics.phone}</p>
                         <h5>E-mail</h5>
-                        <p>alex20xx_zala@hotmail.com</p>
+                        <p>{resume.basics.email}</p>
                         <h5>Web</h5>
-                        <p>https://coder-aip.github.io/my-portfolio/</p>
+                        <a href={resume.basics.website}>{resume.basics.website}</a>
                     </Cell>
 
                     <Cell col={8} className="resume-right-col">
@@ -55,10 +55,10 @@ class Resume extends Component {
 
                         <h2>Education</h2>
                         <Education
-                            startYear={2012}
-                            endYear={2014}
-                            schoolName={"The University Of Texas At Austin"}
-                            schoolDesc={"Longhorns"}
+                            graduateDate={resume.education.graduateDate}
+                            institution={resume.education.institution}
+                            area={resume.education.area}
+                            studyType={resume.education.studyType}
                         />
 
                         <hr style={{ borderTop: '3px solid #e22947' }} />
