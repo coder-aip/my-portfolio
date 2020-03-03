@@ -6,7 +6,10 @@ import Skills from './resume/skills';
 
 import avatar from '../images/avatar.png'
 
+import resume from '../data/resume'
+
 class Resume extends Component {
+
     render() {
         return (
             <div>
@@ -35,12 +38,18 @@ class Resume extends Component {
 
                     <Cell col={8} className="resume-right-col">
                         <h2>Professional Experience</h2>
-                        <Job
-                            start={"October 2017"}
-                            end={"Present"}
-                            company={"Motorola Solutions"}
-                            jobTitle={"Software Engineer"}
-                        />
+
+                        {resume.work.map((w, i) => {
+                            return(
+                                <Job
+                                company={w.company}
+                                position={w.position}
+                                startDate={w.startDate}
+                                endDate={w.endDate}
+                                highlights={w.highlights}
+                            />
+                            )
+                        })}
 
                         <hr style={{ borderTop: '3px solid #e22947' }} />
 

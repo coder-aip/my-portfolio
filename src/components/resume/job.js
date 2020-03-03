@@ -5,16 +5,16 @@ class Job extends Component {
     render() {
         return (
             <Grid>
-                <Cell cell={4}>
-                    <p>{this.props.start} - {this.props.end}</p>
+                <Cell col={4}>
+                    <p>{this.props.startDate} - {this.props.endDate}</p>
                 </Cell>
-                <Cell cell={4}>
+                <Cell col={8}>
                     <h4 style={{ marginTop: '0px' }}>{this.props.company}</h4>
-                    <p>{this.props.jobTitle}</p>
+                    <p>{this.props.position}</p>
                     <ul>
-                        <li>Coffee</li>
-                        <li>Tea</li>
-                        <li>Milk</li>
+                        {this.props.highlights.map((h, i) => {
+                            return <li key={ i }>{h}</li>;
+                        })}
                     </ul>
                 </Cell>
             </Grid>
