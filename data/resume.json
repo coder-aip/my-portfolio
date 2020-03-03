@@ -1,7 +1,130 @@
 {
-    "ProfessionalExperience": {
-        "Job": {
-            "company": "Motorola Solutions"
+    "basics": {
+        "name": "Alexandre Ip",
+        "label": "Software Engineer",
+        "email": "alex20xx_zala@hotmail.com",
+        "phone": "(512) 905-1042",
+        "website": "https://coder-aip.github.io/my-portfolio/",
+        "profiles": [
+            {
+                "network": "linkedin",
+                "url": "https://www.linkedin.com/in/alexandre-ip/"
+            },
+            {
+                "network": "github",
+                "url": "https://github.com/coder-aip"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Motorola Solutions",
+            "position": "Software Engineer",
+            "startDate": "October 2017",
+            "endDate": "Present",
+            "highlights": [
+                "Collaborated with other developers on designing, developing, testing, and maintaining the video management solution EvidenceLibrary.com as a Single Page Application with ASP.NET Web API",
+                "Hand-on experiences on developing WebSocket API that communicate with MSI next generation law enforcement body camera, which enables a two-way communication between the camera and the server",
+                "Developed customer onboarding application in Microsoft Azure Active Directory with ASP.NET Core MVC",
+                "Experience with T-SQL in constructing Triggers, Tables, implementing stored Procedures, Functions, and Views in MsSQL",
+                "Test guild member responsible for deciding API and UI automated testing strategies",
+                "Actively writing, updating automated tests, unit tests for the web application (xUnit), Web API (Mocha, Chai, Supertest) and user interface (Selenium)",
+                "Lead on developing new Windows application installer for the legacy evidence videos software with Advanced Installer. Providing ability to perform automatic updates without user interaction"
+            ]
+        },
+        {
+            "company": "Hyundai U&I America, Inc.",
+            "position": "Programmer",
+            "startDate": "December 2014",
+            "endDate": "October 2017",
+            "highlights": [
+                "Responsible for designing, coding, testing and maintenance of automatic programs for document processing, creation, and transmission of over 1000 shipment documents per hour",
+                "Created applications that assist users to process over 10,000 worldwide transactions per day with Java, RPG IV",
+                "Developed SQL Scripts for Data Access such as selection, insertion and deletion, joins of Data from DB2",
+                "Assisted in design, construction and maintenance of a database to store and analyze data of merchandise containers including daily movements, bookings, legal documents, customs’ information, etc.",
+                "Performed code reviews for existing applications to improve user experience and reduce running time",
+                "Interviewed users for the new application ideas and improvement needed for existing applications",
+                "Document and system consulting, training for new vendors, customers and supply chain partners",
+                "Managed FTP data connections from various business partners: U.S. retail customers, marine ports, rail hubs and truck companies"
+            ]
         }
-    }
+    ],
+    "education": [
+        {
+            "institution": "The University of Texas at Austin",
+            "area": " Computer Science",
+            "studyType": "Bachelor",
+            "graduateDate": "Spring 2014"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Cloud Computing",
+            "level": "",
+            "keywords": [
+                "Microsoft Azure"
+            ]
+        },
+        {
+            "name": "Languages",
+            "level": "",
+            "keywords": [
+                "C#",
+                "JavaScript",
+                "Powershell",
+                "Java",
+                "HTML",
+                "RPG IV",
+                "SQL",
+                "T-SQL" 
+            ]
+        },
+        {
+            "name": "Tools / Framework",
+            "level": "",
+            "keywords": [
+                "jQuery",
+                "MVC",
+                "Durandal",
+                "React"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "",
+            "keywords": [
+                "SQL Server",
+                "Azure Cosmos DB",
+                "DB2"
+            ]
+        },
+        {
+            "name": "Testing Tools",
+            "level": "",
+            "keywords": [
+                "xUnit",
+                "Mocha",
+                "Chai",
+                "Supertest"
+            ]
+        },
+        {
+            "name": "Installer Tools",
+            "level": "",
+            "keywords": [
+                "Advanced Installer",
+                "InstallShield"
+            ]
+        },
+        {
+            "name": "Development Tools",
+            "level": "",
+            "keywords": [
+                "Visual Studio Professional",
+                "Visual Studio Code",
+                "Eclipse",
+                "iSeries Access"
+            ]
+        }
+    ]
 }
