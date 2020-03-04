@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Cell, ProgressBar} from 'react-mdl';
+import {Grid, Cell, Chip} from 'react-mdl';
 
 class Skills extends Component{
     render(){
@@ -11,7 +11,7 @@ class Skills extends Component{
                 <Cell col={10}>
                     <div style={{display: "flex"}}>
                     {this.props.keywords.map((k, i) => {
-                            return <li key={ i }>{k}</li>;
+                            return <Chip key={ i }>{k}</Chip>;
                         })}
                     </div>
                 </Cell>
