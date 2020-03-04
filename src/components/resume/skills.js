@@ -5,8 +5,15 @@ class Skills extends Component{
     render(){
         return(
             <Grid>
-                <Cell col={12}>
-                    <div style={{display: "flex"}}>{this.props.skill} <ProgressBar style={{margin: 'auto', width: '75%'}} progress={this.props.skillLevel}/></div>
+                <Cell col={2}>
+                    <div style={{display: "flex"}}>{this.props.name}</div>
+                </Cell>
+                <Cell col={10}>
+                    <div style={{display: "flex"}}>
+                    {this.props.keywords.map((k, i) => {
+                            return <li key={ i }>{k}</li>;
+                        })}
+                    </div>
                 </Cell>
             </Grid>
         )

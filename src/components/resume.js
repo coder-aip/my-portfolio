@@ -64,18 +64,12 @@ class Resume extends Component {
                         <hr style={{ borderTop: '3px solid #e22947' }} />
 
                         <h2>Skills</h2>
-                        <Skills
-                            skill={"C#"}
-                            skillLevel={80}
-                        />
-                        <Skills
-                            skill={"SQL"}
-                            skillLevel={80}
-                        />
-                        <Skills
-                            skill={"Azure"}
-                            skillLevel={80}
-                        />
+                        {resume.skills.map((s, i) => {
+                            return <Skills key={i}
+                            name={s.name}
+                            keywords={s.keywords}
+                        />;
+                        })}
                     </Cell>
                 </Grid>
             </div>
