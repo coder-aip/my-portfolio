@@ -26,8 +26,8 @@ class Resume extends Component {
                         <h2 style={{ paddingTop: '2em' }}>{resume.basics.name}</h2>
                         <h4 style={{ color: 'grey' }}>{resume.basics.label}</h4>
                         <hr style={{ borderTop: "3px solid #833fb2", width: '50%' }} />
-                        <p>{resume.basics.summary}</p>
-                        <hr style={{ borderTop: "3px solid #833fb2", width: '50%' }} />
+                        {/* <p>{resume.basics.summary}</p>
+                        <hr style={{ borderTop: "3px solid #833fb2", width: '50%' }} /> */}
                         <h5>Phone</h5>
                         <p>{resume.basics.phone}</p>
                         <h5>E-mail</h5>
