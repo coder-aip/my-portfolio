@@ -15,6 +15,7 @@ class App extends Component {
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contacts</Link>
+                <a href="https://coderaipstorageaccount.blob.core.windows.net/public/resume.pdf">Download My Resume</a>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/my-portfolio">Alexandre Ip</Link>}>
