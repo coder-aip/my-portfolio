@@ -14,14 +14,10 @@ class Projects extends Component {
                     <div className="projects-grid">
                         {/* Project 1 */}
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #1</CardTitle>
-                            <CardText>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                      </CardText>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >Tic Tac Toe</CardTitle>
+                            <CardText>Really simple Tic Tac Toe game with React</CardText>
                             <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button colored>CodePen</Button>
-                                <Button colored>Live Demo</Button>
+                                <Button colored href="https://github.com/coder-aip/react-tictactoe">GitHub</Button>
                             </CardActions>
                             <CardMenu style={{ color: '#fff' }}>
                                 <IconButton name="share" />
@@ -30,30 +26,10 @@ class Projects extends Component {
 
                         {/* Project 2 */}
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #2</CardTitle>
-                            <CardText>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                      </CardText>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >My Portfolio Website</CardTitle>
+                            <CardText>Source code of this webpage!!!</CardText>
                             <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button colored>CodePen</Button>
-                                <Button colored>Live Demo</Button>
-                            </CardActions>
-                            <CardMenu style={{ color: '#fff' }}>
-                                <IconButton name="share" />
-                            </CardMenu>
-                        </Card>
-
-                        {/* Project 3 */}
-                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #3</CardTitle>
-                            <CardText>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                      </CardText>
-                            <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button colored>CodePen</Button>
-                                <Button colored>Live Demo</Button>
+                                <Button colored href="https://github.com/coder-aip/my-portfolio">GitHub</Button>
                             </CardActions>
                             <CardMenu style={{ color: '#fff' }}>
                                 <IconButton name="share" />
@@ -87,10 +63,10 @@ class Projects extends Component {
         return (
             <div>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>Temp1</Tab>
-                    <Tab>Temp2</Tab>
+                    <Tab>React</Tab>
+                    {/* <Tab>Temp2</Tab>
                     <Tab>Temp3</Tab>
-                    <Tab>Temp4</Tab>
+                    <Tab>Temp4</Tab> */}
                 </Tabs>
 
                 <Grid>
