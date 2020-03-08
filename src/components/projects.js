@@ -40,7 +40,7 @@ class Projects extends Component {
                 break;
             case 1:
                 return (
-                    <div><h1>This is Temp2</h1></div>
+                    <div><h1>More projects incoming!!!</h1></div>
                 )
                 break;
             case 2:
@@ -64,9 +64,9 @@ class Projects extends Component {
             <div>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>React</Tab>
-                    {/* <Tab>Temp2</Tab>
-                    <Tab>Temp3</Tab>
-                    <Tab>Temp4</Tab> */}
+                    <Tab>More incoming</Tab>
+                    {/* <Tab>Temp3</Tab> */}
+                    {/* <Tab>Temp4</Tab> */}
                 </Tabs>
 
                 <Grid>
